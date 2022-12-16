@@ -1,0 +1,277 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* Убираем внутренние отступы */
+ul[class],
+ol[class] {
+  padding: 0;
+}
+
+/* Убираем внешние отступы */
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+ul[class],
+ol[class],
+li,
+figure,
+figcaption,
+blockquote,
+dl,
+dd {
+  margin: 0;
+}
+body {
+  font-family: 'Comforter', cursive;
+  font-size: 24px;
+}
+button {
+  font-family: 'Comforter', cursive;
+  font-size: 24px;
+}
+
+a {
+    color: #222025;
+    text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+
+header {
+    background-color: #5c6c83;
+    padding: 20px 0px;
+}
+.logo{
+    color: #222025;
+    max-width: 1400px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 0 5px;
+}
+
+
+.name {
+  padding: 20px;
+  background-color: #b0b8c5;
+  border: 5px solid #222025;
+  width: 400px;
+  border-radius: 7px;
+}
+@media (max-width:768px) {.name {
+  width: 270px;
+}
+  
+}
+@media (max-width:440px) {.name {
+  width: 180px;
+}
+}
+@media (max-width:320px) {.name {
+  width: 160px;
+}
+}
+h1{
+  font-size: 64px;
+  letter-spacing: 5px;
+  display: flex;
+  justify-content: center;
+}
+@media (max-width:768px) {h1{
+  font-size: 48px;
+}
+}
+@media (max-width:440px) {h1 {
+  font-size: 34px;
+}
+}
+@media (max-width:320px) {h1 {
+ font-size: 30px;
+}
+}
+p {
+  display: flex;
+  justify-content: center;
+}
+@media (max-width:440px) {p{
+  font-size: 22px
+}
+  
+}
+.info {
+  display: grid;
+  align-content: space-between;
+ 
+}
+.btn-1 {
+  width: 300px;
+  height: 80px;
+  font-size: 36px;
+  background-color: #b0b8c5;
+  border: 5px solid #222025;
+  border-radius: 7px;
+}
+@media (max-width:768px) {.btn-1{
+  width: 160px;
+  height: 70px;
+  font-size: 22px;
+}
+}
+@media (max-width:440px) {.btn-1{
+  width: 140px;
+  height: 60px;
+  font-size: 18px;
+}
+}
+.btn-1:hover {
+  width: 290px;
+  height: 75px;
+}
+@media (max-width:768px) {.btn-1:hover{
+  width: 157px;
+  height: 68px;
+} 
+}
+@media (max-width:440px) {.btn-1:hover{
+  width: 137px;
+  height: 58px;
+}
+}
+.svg {
+  max-width: 30px;
+}
+.location {
+  font-size: 36px;
+  display: flex;
+  justify-content: end;
+  padding-right: 5px;
+}
+@media (max-width:768px) {.location{
+  font-size: 26px;
+} 
+}
+@media (max-width:440px) {.location{
+  font-size: 20px;
+}
+  
+}
+.back {
+  background-image: url(../img/nn1.jpg);
+  background-repeat: no-repeat;
+
+
+}
+.menu {
+  color: #222025;
+  max-width: 1400px;
+  height: 400px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: center;
+}
+@media (max-width:768px) {
+  .menu{
+    height: 200px;
+  }
+}
+@media (max-width:440px) {
+  .menu{
+    height: 150px;
+  }
+}
+.btn-2 {
+  display: inline-block;
+  width: 400px;
+  height: 160px;
+  background-color: #b0b8c5;
+  border: 5px solid #222025;
+  font-size: 56px;
+  border-radius: 7px;
+}
+@media (max-width:768px) {
+  .btn-2 {
+    width: 210px;
+    height: 80px;
+    font-size: 30px;
+  }
+}
+.btn-2:hover {
+  width: 385px;
+  height: 150px;
+}
+@media (max-width:768px) {
+  .btn-2:hover {
+    width: 200px;
+    height: 75px;
+  }
+  
+}
+.back-2 {
+  max-width: 1400px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.photo {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  padding: 0 5px;
+}
+
+.image-1 {
+  width: 31%;
+  border-radius: 7px;
+} 
+
+.image-2 {
+  width: 31%;
+  border-radius: 7px;
+}
+.image-3 {
+  width: 31%;
+  border-radius: 7px;
+}
+.dop {
+  margin: 0 auto;
+  max-width: 1170px;
+  padding: 20px;
+  display: grid;
+  justify-content: center;
+  font-size: 40px;
+}
+@media (max-width:768px) {.dop{
+  font-size: 28px;
+}
+  
+}
+.dopper {
+  background-color: #b0b8c5;
+  padding: 10px;
+  border: #5c6c83 solid 10px;
+  border-radius: 7px;
+}
+.link {
+  display: grid;
+  justify-content: center;
+  text-align: center;
+  
+}
+.time {
+  text-align: center;
+}
